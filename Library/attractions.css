@@ -1,0 +1,44 @@
+body {
+	background-image: url("whitebrick.jpg");
+	background-repeat: repeat;
+}
+
+h1 {
+	font-family: Lobster;
+	font-size: 60px;
+}
+
+p {
+	font-family: PT Sans;
+	display: inline;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+img {
+	border-style: solid;
+	border-radius: 10px;
+	float:left;
+	margin-right: 30px;
+}
+
+.back {
+	border-style: solid;
+	border-radius: 10px;
+	padding: 12px 16px;
+}
+
+.back:hover {
+	background-color: black;
+	color: white;
+
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+	color: white;
+}
