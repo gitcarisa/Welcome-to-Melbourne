@@ -2,10 +2,9 @@
 body {
 	background-image: url("https://image.freepik.com/vector-gratis/fondo-con-mosaico-azul_1164-913.jpg");
 	background-repeat: repeat;
-  padding-bottom: 6rem;
-  min-height:100%;
-  margin:0;
-  
+	padding-bottom: 6rem;
+	min-height:100%;
+	margin:0;
 }
 
 h1 {
