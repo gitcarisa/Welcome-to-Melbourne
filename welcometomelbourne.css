@@ -22,8 +22,8 @@ h2 {
 }
 
 nav {
-  margin: 0 auto;
-  width: 100%;
+	margin: 0 auto;
+	width: 100%;
 }
 
 button {
@@ -38,21 +38,21 @@ button {
 	margin: 40px;
 	border-color: white;
 	color: white;
-  background: transparent;
+	background: transparent;
 }
 
 button:hover {
 	transition-duration: 0.3s;
 	background-color: white;
 	color: blue;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24);
-  transform: translate(0,-8px);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24);
+	transform: translate(0,-8px);
 }
 
 h1:hover{
 	transform: scale(1.1);
 	transition-duration: 0.3s;
-  text-shadow: 5px 5px rgba(0,0,0,0.24);
+	text-shadow: 5px 5px rgba(0,0,0,0.24);
 }
 
 img {
@@ -76,26 +76,24 @@ img:hover {
 .col_contain {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 400px);
-  grid-gap:50px;
+	grid-gap:50px;
 	height: 600px;
-  margin:auto;
-  
+	margin:auto;
 }
 
 .container {
     position: relative;
     text-align: center;
     color: white;
-    
 }
 
 .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 1;
-    font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 1;
+	font-size: 30px;
 	font-color:white;
 	font-family: PT Sans;
 	font-weight: bold;
@@ -114,7 +112,6 @@ img:hover {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-
 }
 
 .container:hover .middle {
