@@ -1,0 +1,47 @@
+body {
+	background-image: url("strawberry.jpg");
+	background-repeat: repeat;
+}
+
+h1 {
+	font-family: Lobster;
+	font-size: 60px;
+	color:white;
+}
+
+p {
+	font-family: PT Sans;
+	display: inline;
+	color:white;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+img {
+	border-style: solid;
+	border-color: white;
+	border-radius: 10px;
+	float:left;
+	margin-right: 30px;
+}
+
+.back {
+	border-style: solid;
+	border-radius: 10px;
+	border-color: white;
+	padding: 12px 16px;
+}
+
+.back:hover {
+	background-color: white;
+	color:black;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+
+a:hover {
+	color: red;
+}
